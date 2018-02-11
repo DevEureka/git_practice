@@ -16,6 +16,7 @@ public class GetObject : MonoBehaviour {
             {
                string objectName = hit.collider.gameObject.name; //オブジェクト名を取得して変数に入れる
                 Debug.Log(objectName); //オブジェクト名をコンソールに表示
+                Debug.Log(objectName);//git用テスト更新、後で削除
             }
         }
     }
